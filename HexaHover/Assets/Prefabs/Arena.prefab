@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1715440956499510}
+  m_IsPrefabParent: 1
+--- !u!1 &1715440956499510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4055238583717500}
+  - component: {fileID: 114186100886504756}
+  m_Layer: 0
+  m_Name: Arena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4055238583717500
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715440956499510}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114186100886504756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1715440956499510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9784b8caa25ee6c4da2e70bf2f6ad08a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 2
+  HexagonRadius: 2
+  HexagonHeight: 2
+  HexagonPrefab: {fileID: 1520125598673760, guid: c98fb3fec761c3b4b94a0153b69e4efc,
+    type: 2}
+  SquareRows: 10
+  SquareColumn: 10
+  ArenaRadius: 4
+  BlockDespawnMaxTimer: 2
+  BlockDespawnIndicatorTimer: 1
+  BlockSpawnMaxTimer: 4
+  BlockSpawnIndicatorTimer: 1
+  DynamicArenaBeginTimer: 3
+  DropArena: 0
